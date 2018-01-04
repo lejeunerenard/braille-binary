@@ -4,8 +4,9 @@ const bb = require('./')
 
 test('convert to braille', (t) => {
   t.test('1 character (8bit)', (t) => {
-    t.plan(6)
+    t.plan(7)
 
+    t.is(bb(0), '⠀', '0 == ⠀')
     t.is(bb(1), '⠁', '1 == ⠁')
     t.is(bb(2), '⠂', '2 == ⠂')
     t.is(bb(3), '⠃', '3 == ⠃')
