@@ -3,8 +3,8 @@ module.exports = function numberToBraille (num) {
 
   if (num < 256) return String.fromCharCode(blank + num)
 
-  const columValue = Math.floor(num / 256)
-  const remainder = num - columValue * 256
+  const columValue = num & 255 // Get last 8 bits
+  const remainder = num >>> 8
 
-  return String.fromCharCode(blank + columValue) + numberToBraille(remainder)
+  return numberToBraille(remainder) + String.fromCharCode(blank + columValue)
 }
