@@ -1,0 +1,16 @@
+{
+  "name": "binary-braille",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "keywords": [],
+  "author": "Sean Zellmer <sean@lejeunerenard.com> (http://lejeunerenard.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.8.0"
+  }
+}
