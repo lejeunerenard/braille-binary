@@ -6,6 +6,10 @@
   "scripts": {
     "test": "tape test.js | faucet"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/lejeunerenard/braille-binary.git"
+  },
   "keywords": [
     "encode",
     "braille",
