@@ -1,12 +1,18 @@
 {
-  "name": "binary-braille",
+  "name": "braille-binary",
   "version": "1.0.0",
-  "description": "",
+  "description": "Encode binary data into braille characters",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js | faucet"
   },
-  "keywords": [],
+  "keywords": [
+    "encode",
+    "braille",
+    "binary",
+    "encoding",
+    "unicode"
+  ],
   "author": "Sean Zellmer <sean@lejeunerenard.com> (http://lejeunerenard.com)",
   "license": "MIT",
   "devDependencies": {
