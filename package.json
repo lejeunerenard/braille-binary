@@ -1,6 +1,6 @@
 {
   "name": "braille-binary",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Encode binary data into braille characters",
   "main": "index.js",
   "scripts": {
