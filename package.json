@@ -1,6 +1,6 @@
 {
   "name": "braille-binary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode binary data into braille characters",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "Sean Zellmer <sean@lejeunerenard.com> (http://lejeunerenard.com)",
   "license": "MIT",
   "devDependencies": {
-    "faucet": "0.0.1",
-    "tape": "^4.8.0"
+    "faucet": "0.0.4",
+    "tape": "^4.17.0"
   }
 }
